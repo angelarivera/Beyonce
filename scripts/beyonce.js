@@ -18,7 +18,7 @@ module.exports = function(robot) {
 	})
 
 	robot.hear(/major key/i, function(response) {
-		keyWisdom = ['tell \'em', 'boy bye', '<img src="http://rip3pac.neocities.org/CW2bcETUsAAq_vW.jpg">', 'img src="http://static.wixstatic.com/media/a35832_2f122dc71d454324b9d779a828c507ef.png/v1/fill/w_554,h_473,al_c,lg_1/a35832_2f122dc71d454324b9d779a828c507ef.png">']
+		keyWisdom = ['tell \'em', 'boy bye', 'http://rip3pac.neocities.org/CW2bcETUsAAq_vW.jpg', 'http://static.wixstatic.com/media/a35832_2f122dc71d454324b9d779a828c507ef.png/v1/fill/w_554,h_473,al_c,lg_1/a35832_2f122dc71d454324b9d779a828c507ef.png']
 
 		// res.send res.random keyWisdom
 		response.send(response.random(keyWisdom));
