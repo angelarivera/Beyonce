@@ -5,10 +5,10 @@ module.exports = function(robot) {
 		response.send("I've been drinking, I've been drinking")
 	})
 
-	robot.hear(/finished with (.+)/i, function(response) {
-		var finished = response.match[1]
+	robot.hear(/completed the (.+)/i, function(response) {
+		var completed = response.match[1]
 		// response.reply() will have the robot at-mention you when it responds
-		response.reply( finished + ', major key')
+		response.reply( completed + ', major key')
 	})
 
 	// robot.respond() means the robot will only reply when at-mentioned or DMed
